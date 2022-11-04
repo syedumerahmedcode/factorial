@@ -3,6 +3,7 @@
 ## Table of content
 
 - [Introduction](#introduction)
+- [When to use Recursion](#when-to-use-recursion)
 - [Out Of Scope](#out-of-scope)
 - [Project structure](#project-structure)
 - [Technologies Used](#technologies-used)
@@ -29,6 +30,18 @@ n!=n*(n-1)!
 For example, `7!=7*6*5*4*3*2*1=5040`.
 
 For solving this, we use recursion. In simple words, _recursion_ is a way of solving problems by having a function calling itself or it solves a smaller subset of the problem. This goes on till an exit condition is reached. 
+
+## When to use Recursion
+
+Following are the cases in which one should choose recursion.
+
+- If we can divide the problem into smaller sub-problems
+- Algorithm to compute nth ...
+- Write code to list the n ...
+- Implement a method to compute all.
+
+- It is also  used in data structures such as trees and graphs.
+- It is used in many algorithms (such as divide and conquer, greedy and dynamic programming). 
 
 ## Out Of Scope
 
