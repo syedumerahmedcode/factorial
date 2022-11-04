@@ -69,7 +69,8 @@ Feature requests, issues, pull requests and questions are welcome.
 
 ## References
 
-- To be defined.
+- [1](https://bechtle.udemy.com/course/java-data-structures-and-algorithms-masterclass/learn/): Data Structures and Algorithms from Zero to Hero and Crack Top Companies 100+ Interview questions (Java Coding) **(Udemy)** **(Primary resource)**
+- [2](https://en.wikipedia.org/wiki/Factorial): Factorial(Wikipedia)
 
 ## Contact Information
 
