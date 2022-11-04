@@ -14,7 +14,21 @@
 
 ## Introduction
 
-- To be defined.
+A _factorial_ is the product of all the positive numbers less than or equal to _n_. It is denoted by n!. The formula for it is as follows:
+
+```text
+
+n!=n*(n-1)*(n-2)*(n-3)*...*3*2*1
+
+Or, in other words:
+
+n!=n*(n-1)!
+```
+
+
+For example, `7!=7*6*5*4*3*2*1=5040`.
+
+For solving this, we use recursion. In simple words, _recursion_ is a way of solving problems by having a function calling itself or it solves a smaller subset of the problem. This goes on till an exit condition is reached. 
 
 ## Out Of Scope
 
