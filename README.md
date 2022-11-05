@@ -4,6 +4,7 @@
 
 - [Introduction](#introduction)
 - [When to use Recursion](#when-to-use-recursion)
+- [Recursion in 3 steps](#recursion-in-3-steps)
 - [Out Of Scope](#out-of-scope)
 - [Project structure](#project-structure)
 - [Technologies Used](#technologies-used)
@@ -42,6 +43,37 @@ Following are the cases in which one should choose recursion.
 
 - It is also  used in data structures such as trees and graphs.
 - It is used in many algorithms (such as divide and conquer, greedy and dynamic programming). 
+
+## Recursion in 3 steps
+
+In the case of factorial(or any recursive program in general), It can be written by performing the following three steps:
+
+- Step 1: Recursive case - the flow
+
+This covers the bulk of the logic and performs the computation required. In our case, for factorial, it will be:
+
+```
+n!=n*(n-1)!
+```
+
+- Step 2: Base case - the stopping criteria
+
+This covers the exit condition, otherwise the recursive call will go on forever resulting in an exception. In our case, for factorial, it will be:
+```
+0!=1
+1!=1
+```
+
+- Step 3: Unintentional case
+
+This covers the cases which are outside the problem scope. In our case, for factorial, it will be negative numbers since the factorial is based of positive numbers:
+```
+factorial(-1) ???
+```
+
+
+
+
 
 ## Out Of Scope
 
