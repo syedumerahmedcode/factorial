@@ -41,11 +41,11 @@ A _fabonacci_ number sequence is a sequence of numbers in which each number is t
 
 ```text
 
-To be defined
+f(n)=f(n-1)+f(n-2)
 
 ```
 
-For example, `To be defined`.
+For example, `f(5)=f(4)+f(3)`.
 
 ## When to use Recursion
 
@@ -88,6 +88,8 @@ This covers the cases which are outside the problem scope. In our case, for fact
 factorial(-1) ???
 ```
 
+Similarly, the same logic of three steps applies for computing Fabonacci numbers as well. 
+
 ## Out Of Scope
 
 Since this is an beginner project in which the focus is just to learn the some basic recursion, testing is out of scope of this project.
@@ -116,6 +118,7 @@ Feature requests, issues, pull requests and questions are welcome.
 
 - [1](https://bechtle.udemy.com/course/java-data-structures-and-algorithms-masterclass/learn/): Data Structures and Algorithms from Zero to Hero and Crack Top Companies 100+ Interview questions (Java Coding) **(Udemy)** **(Primary resource)**
 - [2](https://en.wikipedia.org/wiki/Factorial): Factorial(Wikipedia)
+- [3](https://en.wikipedia.org/wiki/Fibonacci_number): Fibonacci number(Wikipedia)
 
 ## Contact Information
 
