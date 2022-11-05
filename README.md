@@ -100,11 +100,11 @@ Since this is an beginner project in which the focus is just to learn the some b
 
 ## Technologies Used
 
-- To be defined.
+- Java 11.
 
 ## Prerequisities
 
-- To be defined.
+None
 
 ## Commands
 
