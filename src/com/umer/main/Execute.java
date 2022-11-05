@@ -2,6 +2,7 @@ package com.umer.main;
 
 import com.umer.fabonacci.FabonacciService;
 import com.umer.factorial.FactorialService;
+import com.umer.sumofdigits.SumOfDigitsService;
 
 public class Execute {
 
@@ -11,6 +12,9 @@ public class Execute {
 
 		FabonacciService fabonacci = new FabonacciService();
 		System.out.println(fabonacci.calculateFabonacci(10));
+		
+		SumOfDigitsService sumOfDigitsService=new SumOfDigitsService();
+		System.out.println(sumOfDigitsService.calculateSumOfDigits(134));
 
 	}
 
