@@ -1,16 +1,16 @@
 package com.umer.main;
 
-import com.umer.fabonacci.Fabonacci;
-import com.umer.factorial.Factorial;
+import com.umer.fabonacci.FabonacciService;
+import com.umer.factorial.FactorialService;
 
 public class Execute {
 
 	public static void main(String[] args) {
-		Factorial factorial = new Factorial();
-		System.out.println(factorial.factorial(10));
+		FactorialService factorial = new FactorialService();
+		System.out.println(factorial.calculateFactorial(10));
 
-		Fabonacci fabonacci = new Fabonacci();
-		System.out.println(fabonacci.fabonacci(10));
+		FabonacciService fabonacci = new FabonacciService();
+		System.out.println(fabonacci.calculateFabonacci(10));
 
 	}
 
