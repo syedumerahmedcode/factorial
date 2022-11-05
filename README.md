@@ -1,8 +1,10 @@
-# factorial
+# recursion
 
 ## Table of content
 
 - [Introduction](#introduction)
+- [Factorial](#factorial)
+- [Fabonacci](#fabonacci)
 - [When to use Recursion](#when-to-use-recursion)
 - [Recursion in 3 steps](#recursion-in-3-steps)
 - [Out Of Scope](#out-of-scope)
@@ -16,6 +18,10 @@
 
 ## Introduction
 
+_Recursion_ is a way of solving problems by having a function calling itself or it solves a smaller subset of the problem. This goes on till an exit condition is reached.
+
+## Factorial
+
 A _factorial_ is the product of all the positive numbers less than or equal to _n_. It is denoted by n!. The formula for it is as follows:
 
 ```text
@@ -27,10 +33,19 @@ Or, in other words:
 n!=n*(n-1)!
 ```
 
-
 For example, `7!=7*6*5*4*3*2*1=5040`.
 
-For solving this, we use recursion. In simple words, _recursion_ is a way of solving problems by having a function calling itself or it solves a smaller subset of the problem. This goes on till an exit condition is reached. 
+## Fabonacci
+
+A _fabonacci_ number sequence is a sequence of numbers in which each number is the sum of two preceeding numbers. The initial two numbers in this sequence are 0 and 1. The formula for it is as follows:
+
+```text
+
+To be defined
+
+```
+
+For example, `To be defined`.
 
 ## When to use Recursion
 
@@ -41,8 +56,8 @@ Following are the cases in which one should choose recursion.
 - Write code to list the n ...
 - Implement a method to compute all.
 
-- It is also  used in data structures such as trees and graphs.
-- It is used in many algorithms (such as divide and conquer, greedy and dynamic programming). 
+- It is also used in data structures such as trees and graphs.
+- It is used in many algorithms (such as divide and conquer, greedy and dynamic programming).
 
 ## Recursion in 3 steps
 
@@ -59,6 +74,7 @@ n!=n*(n-1)!
 - Step 2: Base case - the stopping criteria
 
 This covers the exit condition, otherwise the recursive call will go on forever resulting in an exception. In our case, for factorial, it will be:
+
 ```
 0!=1
 1!=1
@@ -67,13 +83,10 @@ This covers the exit condition, otherwise the recursive call will go on forever 
 - Step 3: Unintentional case
 
 This covers the cases which are outside the problem scope. In our case, for factorial, it will be negative numbers since the factorial is based of positive numbers:
+
 ```
 factorial(-1) ???
 ```
-
-
-
-
 
 ## Out Of Scope
 
