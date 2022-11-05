@@ -5,6 +5,7 @@
 - [Introduction](#introduction)
 - [Factorial](#factorial)
 - [Fabonacci](#fabonacci)
+- [Sum of digits](#sum-of-digits)
 - [When to use Recursion](#when-to-use-recursion)
 - [Recursion in 3 steps](#recursion-in-3-steps)
 - [Out Of Scope](#out-of-scope)
@@ -22,7 +23,9 @@ _Recursion_ is a way of solving problems by having a function calling itself or 
 
 ## Factorial
 
-A _factorial_ is the product of all the positive numbers less than or equal to _n_. It is denoted by n!. The formula for it is as follows:
+A _factorial_ is the product of all the positive numbers less than or equal to _n_. It is denoted by n!. For example, `7!=7*6*5*4*3*2*1=5040`.
+
+The formula for it is as follows:
 
 ```text
 
@@ -33,11 +36,11 @@ Or, in other words:
 n!=n*(n-1)!
 ```
 
-For example, `7!=7*6*5*4*3*2*1=5040`.
-
 ## Fabonacci
 
-A _fabonacci_ number sequence is a sequence of numbers in which each number is the sum of two preceeding numbers. The initial two numbers in this sequence are 0 and 1. The formula for it is as follows:
+A _fabonacci_ number sequence is a sequence of numbers in which each number is the sum of two preceeding numbers. The initial two numbers in this sequence are 0 and 1. For example, `f(5)=f(4)+f(3)`.
+
+The formula for it is as follows:
 
 ```text
 
@@ -45,7 +48,20 @@ f(n)=f(n-1)+f(n-2)
 
 ```
 
-For example, `f(5)=f(4)+f(3)`.
+## Sum of digits
+
+The core idea here is to find the sum of digits of a positive integer number using recursion. For example, 
+
+```text
+
+10 --> 10/10 = 1 and remainder = 0
+54 --> 54/10 = 5 and remainder = 4
+
+112 --> 112/10 = 11 and remainder = 2
+	   11/10 = 1 and remainder = 1
+```
+
+So, the formula for recursive function turns out to be, `f(n)=n%10+f(n/10)`.
 
 ## When to use Recursion
 
