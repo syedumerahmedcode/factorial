@@ -4,6 +4,7 @@ public class PowerCalculationService {
 
 	public int calculatePower(int base, int exponent) {
 		// checking constraint
+		// since the exponent should always be positive as per the problem statement
 		if (exponent < 0) {
 			return -1;
 		}

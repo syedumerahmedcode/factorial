@@ -3,11 +3,12 @@
 ## Table of content
 
 - [Introduction](#introduction)
+- [When to use Recursion](#when-to-use-recursion)
+- [Recursion in 3 steps](#recursion-in-3-steps)
 - [Factorial](#factorial)
 - [Fabonacci](#fabonacci)
 - [Sum of digits](#sum-of-digits)
-- [When to use Recursion](#when-to-use-recursion)
-- [Recursion in 3 steps](#recursion-in-3-steps)
+- [Power of a number](#power-of-a-number)
 - [Out Of Scope](#out-of-scope)
 - [Project structure](#project-structure)
 - [Technologies Used](#technologies-used)
@@ -20,48 +21,6 @@
 ## Introduction
 
 _Recursion_ is a way of solving problems by having a function calling itself or it solves a smaller subset of the problem. This goes on till an exit condition is reached.
-
-## Factorial
-
-A _factorial_ is the product of all the positive numbers less than or equal to _n_. It is denoted by n!. For example, `7!=7*6*5*4*3*2*1=5040`.
-
-The formula for it is as follows:
-
-```text
-
-n!=n*(n-1)*(n-2)*(n-3)*...*3*2*1
-
-Or, in other words:
-
-n!=n*(n-1)!
-```
-
-## Fabonacci
-
-A _fabonacci_ number sequence is a sequence of numbers in which each number is the sum of two preceeding numbers. The initial two numbers in this sequence are 0 and 1. For example, `f(5)=f(4)+f(3)`.
-
-The formula for it is as follows:
-
-```text
-
-f(n)=f(n-1)+f(n-2)
-
-```
-
-## Sum of digits
-
-The core idea here is to find the sum of digits of a positive integer number using recursion. For example, 
-
-```text
-
-10 --> 10/10 = 1 and remainder = 0
-54 --> 54/10 = 5 and remainder = 4
-
-112 --> 112/10 = 11 and remainder = 2
-	   11/10 = 1 and remainder = 1
-```
-
-So, the formula for recursive function turns out to be, `f(n)=n%10+f(n/10)`.
 
 ## When to use Recursion
 
@@ -81,7 +40,7 @@ In the case of factorial(or any recursive program in general), It can be written
 
 - Step 1: Recursive case - the flow
 
-This covers the bulk of the logic and performs the computation required. In our case, for factorial, it will be:
+This covers the bulk of the logic and performs the computation required. In our case of factorial, it will be:
 
 ```
 n!=n*(n-1)!
@@ -104,7 +63,67 @@ This covers the cases which are outside the problem scope. In our case, for fact
 factorial(-1) ???
 ```
 
-Similarly, the same logic of three steps applies for computing Fabonacci numbers as well. 
+Similarly, the same logic of three steps applies for computing recursive solutions as well. Some of which are discussed below.
+
+## Factorial
+
+A _factorial_ is the product of all the positive numbers less than or equal to _n_. It is denoted by n!. 
+
+The formula for it is as follows:
+
+```text
+
+n!=n*(n-1)*(n-2)*(n-3)*...*3*2*1
+
+Or, in other words:
+
+n!=n*(n-1)!
+```
+
+For example, `7!=7*6*5*4*3*2*1=5040`.
+
+## Fabonacci
+
+A _fabonacci_ number sequence is a sequence of numbers in which each number is the sum of two preceeding numbers. The initial two numbers in this sequence are 0 and 1. 
+
+The formula for it is as follows:
+
+```text
+
+f(n)=f(n-1)+f(n-2)
+
+```
+
+For example, `f(5)=f(4)+f(3)`.
+
+## Sum of digits
+
+The core idea here is to find the sum of digits of a positive integer number using recursion. For example, 
+
+```text
+
+10 --> 10/10 = 1 and remainder = 0
+54 --> 54/10 = 5 and remainder = 4
+
+112 --> 112/10 = 11 and remainder = 2
+	   11/10 = 1 and remainder = 1
+```
+
+So, the formula for recursive function turns out to be, `f(n)=n%10+f(n/10)`.
+
+## Power of a number
+
+The core idea here is to find the power of a positive integer number using recursion. For example, 
+
+```text
+
+xpowern = x*x*x*x*..(n times).*x
+2⁴ --> 2*2*2*2 
+
+```
+
+So, the formula for recursive function turns out to be, `xpowern=x * xpowern-1`.
+
 
 ## Out Of Scope
 
