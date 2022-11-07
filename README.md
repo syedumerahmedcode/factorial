@@ -82,7 +82,9 @@ n!=n*(n-1)!
 
 For example, `7!=7*6*5*4*3*2*1=5040`.
 
-![Fabonacci](https://github.com/syedumerahmedcode/recursion/blob/master/src/main/resources/FabonacciUsingRecursion.jpg)
+**Visual description**
+
+![Factorial](https://github.com/syedumerahmedcode/recursion/blob/master/src/main/resources/FactorialUsingRecursion.jpg)
 
 ## Fabonacci
 
@@ -97,6 +99,10 @@ f(n)=f(n-1)+f(n-2)
 ```
 
 For example, `f(5)=f(4)+f(3)`.
+
+**Visual description**
+
+![Fabonacci](https://github.com/syedumerahmedcode/recursion/blob/master/src/main/resources/FabonacciUsingRecursion.jpg)
 
 ## Sum of digits
 
@@ -113,6 +119,10 @@ The core idea here is to find the sum of digits of a positive integer number usi
 
 So, the formula for recursive function turns out to be, `f(n)=n%10+f(n/10)`.
 
+**Visual description**
+
+![Sum of digits](https://github.com/syedumerahmedcode/recursion/blob/master/src/main/resources/SumOfDigitsUsingRecursion.jpg)
+
 ## Power of a number
 
 The core idea here is to find the power of a positive integer number using recursion. For example, 
@@ -125,6 +135,10 @@ xpowern = x*x*x*x*..(n times).*x
 ```
 
 So, the formula for recursive function turns out to be, `xpowern=x * xpowern-1`.
+
+**Visual description**
+
+![Power of a number](https://github.com/syedumerahmedcode/recursion/blob/master/src/main/resources/PowerOfANumberUsingRecursion.jpg)
 
 
 ## Out Of Scope
