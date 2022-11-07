@@ -82,6 +82,8 @@ n!=n*(n-1)!
 
 For example, `7!=7*6*5*4*3*2*1=5040`.
 
+![Fabonacci](https://github.com/syedumerahmedcode/recursion/blob/master/src/main/resources/FabonacciUsingRecursion.jpg)
+
 ## Fabonacci
 
 A _fabonacci_ number sequence is a sequence of numbers in which each number is the sum of two preceeding numbers. The initial two numbers in this sequence are 0 and 1. 
