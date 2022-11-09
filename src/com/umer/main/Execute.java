@@ -2,6 +2,7 @@ package com.umer.main;
 
 import com.umer.fabonacci.FabonacciService;
 import com.umer.factorial.FactorialService;
+import com.umer.gcd.GCDService;
 import com.umer.power.PowerCalculationService;
 import com.umer.sumofdigits.SumOfDigitsService;
 
@@ -19,6 +20,9 @@ public class Execute {
 
 		PowerCalculationService powerCalculationService = new PowerCalculationService();
 		System.out.println(powerCalculationService.calculatePower(4, 5));
+		
+		GCDService gcdService=new GCDService();
+		System.out.println(gcdService.calculateGCD(48, 18));
 
 	}
 
