@@ -193,8 +193,11 @@ Feature requests, issues, pull requests and questions are welcome.
 ## References
 
 - [1](https://bechtle.udemy.com/course/java-data-structures-and-algorithms-masterclass/learn/): Data Structures and Algorithms from Zero to Hero and Crack Top Companies 100+ Interview questions (Java Coding) **(Udemy)** **(Primary resource)**
-- [2](https://en.wikipedia.org/wiki/Factorial): Factorial(Wikipedia)
-- [3](https://en.wikipedia.org/wiki/Fibonacci_number): Fibonacci number(Wikipedia)
+- [2](https://en.wikipedia.org/wiki/Factorial): Factorial (Wikipedia)
+- [3](https://en.wikipedia.org/wiki/Fibonacci_number): Fibonacci number (Wikipedia)
+- [4](https://en.wikipedia.org/wiki/Greatest_common_divisor): Greater Common Divisor (Wikipedia) 
+- [5](https://en.wikipedia.org/wiki/Euclidean_algorithm): Euclidean algorithm (Wikipedia)
+
 
 ## Contact Information
 
