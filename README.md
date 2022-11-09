@@ -10,6 +10,7 @@
 - [Fabonacci](#fabonacci)
 - [Sum of digits](#sum-of-digits)
 - [Power of a number](#power-of-a-number)
+- [GCD](#gcd)
 - [Project structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Prerequisities](#prerequisities)
@@ -143,6 +144,30 @@ So, the formula for recursive function turns out to be, `xpowern=x * xpowern-1`.
 **Visual description**
 
 ![Power of a number](https://github.com/syedumerahmedcode/recursion/blob/master/src/main/resources/PowerOfANumberUsingRecursion.jpg)
+
+## GCD
+
+The core idea here is to find the Greatest Common Divisor of a positive integer number using recursion. the greatest common divisor (GCD) of two or more integers, which are not all zero, is the largest positive integer that divides each of the integers meaning that the remainder is zero. Here, the Euclidean algorithm for find GCD is modeled using recursion. 
+
+The Euclidean algorithm is based on the principle that the greatest common divisor of two numbers does not change if the larger number is replaced by its difference with the smaller number. For example, 
+
+```text
+gcd(8,12) = 4
+
+Using Euclidean algorithm:
+gcd(48,18)
+--> 48/18 = 2 remainder 12
+--> 18/12 = 1 remainder 6
+--> 12/6 = 2 remainder 0
+Hence, the GCD is 6. 
+
+```
+
+So, the formula for recursive function turns out to be, `gcd(a,0) = a` and `gcd(a , b) = gcd(b , a mod b)`.
+
+**Visual description**
+
+![To be inserted](A link which is not working)
 
 
 ## Project structure
