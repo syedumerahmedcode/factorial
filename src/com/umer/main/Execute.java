@@ -1,5 +1,6 @@
 package com.umer.main;
 
+import com.umer.decimaltobinary.DecimnalToBinaryConverterService;
 import com.umer.fabonacci.FabonacciService;
 import com.umer.factorial.FactorialService;
 import com.umer.gcd.GCDService;
@@ -40,6 +41,12 @@ public class Execute {
 		System.out.println("Finding the GCD for " + inputForFirstNumber + " and " + inputForSecondNumber
 				+ " using Euclidean algorithm.");
 		System.out.println(gcdService.calculateGCD(inputForFirstNumber, inputForSecondNumber));
+		System.out.println();
+
+		DecimnalToBinaryConverterService decimnalToBinaryConverterService = new DecimnalToBinaryConverterService();
+		final int numberToConvertInBinary = 10;
+		System.out.println("Finding the binary equivalent for " + numberToConvertInBinary);
+		System.out.println(decimnalToBinaryConverterService.convertDecimalToBinary(numberToConvertInBinary));
 		System.out.println();
 
 	}
