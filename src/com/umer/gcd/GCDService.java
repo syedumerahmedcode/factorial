@@ -2,19 +2,19 @@ package com.umer.gcd;
 
 public class GCDService {
 
-	public int calculateGCD(int a, int b) {
+	public int calculateGCD(int firstNumber, int secondNumber) {
 		// checking constraint
-		if (a < 0 || b < 0) {
+		if (firstNumber < 0 || secondNumber < 0) {
 			return -1;
 		}
 
 		// Exit condition
-		if (b == 0) {
-			return a;
+		if (secondNumber == 0) {
+			return firstNumber;
 		}
 
 		// recursive flow
 		// Euclidean algorithm
-		return calculateGCD(b, a % b);
+		return calculateGCD(secondNumber, firstNumber % secondNumber);
 	}
 }
