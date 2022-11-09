@@ -5,11 +5,11 @@
 - [Introduction](#introduction)
 - [When to use Recursion](#when-to-use-recursion)
 - [Recursion in 3 steps](#recursion-in-3-steps)
+- [Out Of Scope](#out-of-scope)
 - [Factorial](#factorial)
 - [Fabonacci](#fabonacci)
 - [Sum of digits](#sum-of-digits)
 - [Power of a number](#power-of-a-number)
-- [Out Of Scope](#out-of-scope)
 - [Project structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Prerequisities](#prerequisities)
@@ -64,6 +64,10 @@ factorial(-1) ???
 ```
 
 Similarly, the same logic of three steps applies for computing recursive solutions as well. Some of which are discussed below.
+
+## Out Of Scope
+
+Since this is an beginner project in which the focus is just to learn the some basic recursion, testing is out of scope of this project.
 
 ## Factorial
 
@@ -140,10 +144,6 @@ So, the formula for recursive function turns out to be, `xpowern=x * xpowern-1`.
 
 ![Power of a number](https://github.com/syedumerahmedcode/recursion/blob/master/src/main/resources/PowerOfANumberUsingRecursion.jpg)
 
-
-## Out Of Scope
-
-Since this is an beginner project in which the focus is just to learn the some basic recursion, testing is out of scope of this project.
 
 ## Project structure
 
