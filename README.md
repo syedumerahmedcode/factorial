@@ -12,6 +12,7 @@
 - [Power of a number](#power-of-a-number)
 - [GCD](#gcd)
 - [Product of an array](#product-of-an-array)
+- [Recursive range](#recursive-range)
 - [Project structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Prerequisities](#prerequisities)
@@ -172,7 +173,7 @@ So, the formula for recursive function turns out to be, `gcd(a,0) = a` and `gcd(
 
 ## Product of an array
 
-We find the product of an arary which takes an array as input and return the product of all the numbers inside it using recursion. For example, 
+We find the product of an array which takes an array as input and return the product of all the numbers inside it using recursion. For example, 
 
 ```text
 productOfArray{1,2,3,4,5}
@@ -200,6 +201,30 @@ So, the formula for recursive function turns out to be, `productofArray(int A[],
 **Visual description**
 
 ![To be inserted](A link which is not working)
+
+
+## Recursive range
+
+We create a function called _recursiveRange_ which accepts a number and adds up all the numbers from 0 to the number passed using recursion. For example, 
+
+```text
+recursiveRange(5)
+
+--> 5 + 4
+--> 5 + 4 +3
+--> 5 + 4 +3 + 2
+--> 5 + 4 +3 + 2 + 1
+--> 5 + 4 +3 + 2 + 1 + 0
+
+```
+
+So, the formula for recursive function turns out to be, `f(n) = n + f(n-1)`.
+
+**Visual description**
+
+![To be inserted](A link which is not working)
+
+
 
 
 
