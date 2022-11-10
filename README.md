@@ -11,6 +11,7 @@
 - [Sum of digits](#sum-of-digits)
 - [Power of a number](#power-of-a-number)
 - [GCD](#gcd)
+- [Product of an array](#product-of-an-array)
 - [Project structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Prerequisities](#prerequisities)
@@ -168,6 +169,38 @@ So, the formula for recursive function turns out to be, `gcd(a,0) = a` and `gcd(
 **Visual description**
 
 ![To be inserted](A link which is not working)
+
+## Product of an array
+
+We find the product of an arary which takes an array as input and return the product of all the numbers inside it using recursion. For example, 
+
+```text
+productOfArray{1,2,3,4,5}
+
+--> {1,2,3,4} * 5
+--> {1,2,3} * 4 * 5
+---->{1,2,3} * 20 
+--> {1,2} * 3 * 4 * 5
+---->{1,2,3} * 3 * 20
+---->{1,2,3} * 60
+--> {1} * 2 * 3 * 4 * 5
+---->{1} * 2 * 3 * 20
+---->{1} * 2 * 60
+-->{1} * 120
+---->1 * 2 * 3 * 4 * 5
+---->1 * 2 * 3 * 20
+---->1 * 2 * 60
+---->1 * 120
+---->120
+
+```
+
+So, the formula for recursive function turns out to be, `productofArray(int A[], int N)=(productofArray(A, N - 1) * A[N - 1])`.
+
+**Visual description**
+
+![To be inserted](A link which is not working)
+
 
 
 ## Project structure
