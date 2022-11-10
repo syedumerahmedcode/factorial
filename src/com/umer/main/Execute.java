@@ -1,10 +1,14 @@
 package com.umer.main;
 
+import java.util.Arrays;
+
 import com.umer.decimaltobinary.DecimnalToBinaryConverterService;
 import com.umer.fabonacci.FabonacciService;
 import com.umer.factorial.FactorialService;
 import com.umer.gcd.GCDService;
 import com.umer.power.PowerCalculationService;
+import com.umer.productofanarray.ProductOfAnArrayService;
+import com.umer.recursiverange.RecursiveRange;
 import com.umer.sumofdigits.SumOfDigitsService;
 
 public class Execute {
@@ -47,6 +51,19 @@ public class Execute {
 		final int numberToConvertInBinary = 10;
 		System.out.println("Finding the binary equivalent for " + numberToConvertInBinary);
 		System.out.println(decimnalToBinaryConverterService.convertDecimalToBinary(numberToConvertInBinary));
+		System.out.println();
+
+		ProductOfAnArrayService productOfAnArrayService = new ProductOfAnArrayService();
+		int arrayOfnumbers[] = { 1, 2, 3, 4, 5 };
+		int initialnumber = 0;
+		System.out.println("Finding the product of the array provided: " + Arrays.toString(arrayOfnumbers));
+		System.out.println(productOfAnArrayService.productofArray(arrayOfnumbers, initialnumber));
+		System.out.println();
+
+		RecursiveRange recursiveRangeService = new RecursiveRange();
+		int inputForRecursiveRange = 20;
+		System.out.println("Finding the recursive sum (recursive range) for " + inputForRecursiveRange);
+		System.out.println(recursiveRangeService.calculateRecursiveSum(inputForRecursiveRange));
 		System.out.println();
 
 	}

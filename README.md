@@ -225,9 +225,6 @@ So, the formula for recursive function turns out to be, `f(n) = n + f(n-1)`.
 ![To be inserted](A link which is not working)
 
 
-
-
-
 ## Project structure
 
 - To be defined.
