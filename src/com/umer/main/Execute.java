@@ -8,7 +8,8 @@ import com.umer.factorial.FactorialService;
 import com.umer.gcd.GCDService;
 import com.umer.power.PowerCalculationService;
 import com.umer.productofanarray.ProductOfAnArrayService;
-import com.umer.recursiverange.RecursiveRange;
+import com.umer.recursiverange.RecursiveRangeService;
+import com.umer.reversestring.ReverseStringService;
 import com.umer.sumofdigits.SumOfDigitsService;
 
 public class Execute {
@@ -60,10 +61,16 @@ public class Execute {
 		System.out.println(productOfAnArrayService.productofArray(arrayOfnumbers, initialnumber));
 		System.out.println();
 
-		RecursiveRange recursiveRangeService = new RecursiveRange();
+		RecursiveRangeService recursiveRangeService = new RecursiveRangeService();
 		int inputForRecursiveRange = 20;
 		System.out.println("Finding the recursive sum (recursive range) for " + inputForRecursiveRange);
 		System.out.println(recursiveRangeService.calculateRecursiveSum(inputForRecursiveRange));
+		System.out.println();
+		
+		ReverseStringService reverseStringService=new ReverseStringService();
+		final String stringToReverse = "java";
+		System.out.println("Finding the reverse of the string provided: "+stringToReverse);
+		System.out.println(reverseStringService.reverseString(stringToReverse));
 		System.out.println();
 
 	}

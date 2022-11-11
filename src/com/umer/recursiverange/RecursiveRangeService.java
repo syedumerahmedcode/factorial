@@ -1,6 +1,6 @@
 package com.umer.recursiverange;
 
-public class RecursiveRange {
+public class RecursiveRangeService {
 
 	public int calculateRecursiveSum(int number) {
 		// checking constraint
