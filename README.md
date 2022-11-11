@@ -231,7 +231,7 @@ We create a function called _reverse_ which accepts a string and returns a new s
 
 ```text
 reverse('java') # 'avaj'
-reverse('appmillers') # 'srellimppa'
+reverse('australia') # 'ailartsua'
 
 
 ```

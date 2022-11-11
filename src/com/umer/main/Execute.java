@@ -68,7 +68,7 @@ public class Execute {
 		System.out.println();
 		
 		ReverseStringService reverseStringService=new ReverseStringService();
-		final String stringToReverse = "java";
+		final String stringToReverse = "australia";
 		System.out.println("Finding the reverse of the string provided: "+stringToReverse);
 		System.out.println(reverseStringService.reverseString(stringToReverse));
 		System.out.println();
