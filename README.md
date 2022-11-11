@@ -13,6 +13,7 @@
 - [GCD](#gcd)
 - [Product of an array](#product-of-an-array)
 - [Recursive range](#recursive-range)
+- [Reverse](#reverse)
 - [Project structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Prerequisities](#prerequisities)
@@ -219,6 +220,23 @@ recursiveRange(5)
 ```
 
 So, the formula for recursive function turns out to be, `f(n) = n + f(n-1)`.
+
+**Visual description**
+
+![To be inserted](A link which is not working)
+
+## Reverse
+
+We create a function called _reverse_ which accepts a string and returns a new string in reverse using recursion. For example, 
+
+```text
+reverse('java') # 'avaj'
+reverse('appmillers') # 'srellimppa'
+
+
+```
+
+So, the formula for recursive function turns out to be, `f(str) = f(str.substring(1)) + str.charAt(0);`.
 
 **Visual description**
 
