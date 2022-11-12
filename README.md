@@ -14,6 +14,7 @@
 - [Product of an array](#product-of-an-array)
 - [Recursive range](#recursive-range)
 - [Reverse](#reverse)
+- [Palindrome](#palindrome)
 - [Project structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Prerequisities](#prerequisities)
@@ -242,6 +243,26 @@ So, the formula for recursive function turns out to be, `f(str) = f(str.substrin
 
 ![To be inserted](A link which is not working)
 
+## Palindrome
+
+We create a function for _palindrome_ which accepts a string as input and returns true if it is a palindrome, otherwsie false. This is achieved via recursion. 
+
+A palindrome is a word, number, phrase, or other sequence of symbols that reads the same backwards as forwards, such as the words madam or racecar, the date/time stamps 11/11/11 11:11 and 02/02/2020, and the sentence: "A man, a plan, a canal – Panama". The 19-letter Finnish word saippuakivikauppias (a soapstone vendor), is the longest single-word palindrome in everyday use, while the 12-letter term tattarrattat (from James Joyce in Ulysses) is the longest in English. 
+
+A simple example of this method is as follows: 
+
+```text
+isPalindrome('foobar') # false
+isPalindrome('tomamot') # true
+
+```
+
+So, the formula for palindrome turns out to be, `f(str) = f();`.
+
+**Visual description**
+
+![To be inserted](A link which is not working)
+
 
 ## Project structure
 
@@ -270,6 +291,7 @@ Feature requests, issues, pull requests and questions are welcome.
 - [3](https://en.wikipedia.org/wiki/Fibonacci_number): Fibonacci number (Wikipedia)
 - [4](https://en.wikipedia.org/wiki/Greatest_common_divisor): Greater Common Divisor (Wikipedia) 
 - [5](https://en.wikipedia.org/wiki/Euclidean_algorithm): Euclidean algorithm (Wikipedia)
+- [6](https://en.wikipedia.org/wiki/Palindrome): Palindrome (Wikipedia)
 
 
 ## Contact Information
