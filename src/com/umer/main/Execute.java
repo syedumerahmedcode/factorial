@@ -6,6 +6,7 @@ import com.umer.decimaltobinary.DecimnalToBinaryConverterService;
 import com.umer.fabonacci.FabonacciService;
 import com.umer.factorial.FactorialService;
 import com.umer.gcd.GCDService;
+import com.umer.palindrome.PalindromeService;
 import com.umer.power.PowerCalculationService;
 import com.umer.productofanarray.ProductOfAnArrayService;
 import com.umer.recursiverange.RecursiveRangeService;
@@ -66,11 +67,17 @@ public class Execute {
 		System.out.println("Finding the recursive sum (recursive range) for " + inputForRecursiveRange);
 		System.out.println(recursiveRangeService.calculateRecursiveSum(inputForRecursiveRange));
 		System.out.println();
-		
-		ReverseStringService reverseStringService=new ReverseStringService();
+
+		ReverseStringService reverseStringService = new ReverseStringService();
 		final String stringToReverse = "australia";
-		System.out.println("Finding the reverse of the string provided: "+stringToReverse);
+		System.out.println("Finding the reverse of the string provided: " + stringToReverse);
 		System.out.println(reverseStringService.reverseString(stringToReverse));
+		System.out.println();
+
+		PalindromeService palindromeService = new PalindromeService();
+		String inputToCheckForPalindrone = "tenet";
+		System.out.println("Checking if the following string is a Palindrome or not: " + inputToCheckForPalindrone);
+		System.out.println(palindromeService.isPalindrone(inputToCheckForPalindrone));
 		System.out.println();
 
 	}
