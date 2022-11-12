@@ -80,6 +80,11 @@ public class Execute {
 		System.out.println(palindromeService.isPalindrone(inputToCheckForPalindrone));
 		System.out.println();
 
+		inputToCheckForPalindrone = "foobar";
+		System.out.println("Checking if the following string is a Palindrome or not: " + inputToCheckForPalindrone);
+		System.out.println(palindromeService.isPalindrone(inputToCheckForPalindrone));
+		System.out.println();
+
 	}
 
 }
