@@ -5,6 +5,7 @@ import java.util.Arrays;
 import com.umer.decimaltobinary.DecimnalToBinaryConverterService;
 import com.umer.fabonacci.FabonacciService;
 import com.umer.factorial.FactorialService;
+import com.umer.finduppercase.FindUppercaseService;
 import com.umer.gcd.GCDService;
 import com.umer.palindrome.PalindromeService;
 import com.umer.power.PowerCalculationService;
@@ -83,6 +84,13 @@ public class Execute {
 		inputToCheckForPalindrone = "foobar";
 		System.out.println("Checking if the following string is a Palindrome or not: " + inputToCheckForPalindrone);
 		System.out.println(palindromeService.isPalindrone(inputToCheckForPalindrone));
+		System.out.println();
+
+		FindUppercaseService findUppercaseService = new FindUppercaseService();
+		String inputForCheckingUppercaseLetter = "teststringA";
+		System.out.println(
+				"Finding the first uppercase letter in the given input string: " + inputForCheckingUppercaseLetter);
+		System.out.println(findUppercaseService.findFirstUppercaseLetter(inputForCheckingUppercaseLetter));
 		System.out.println();
 
 	}
