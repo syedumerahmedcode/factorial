@@ -15,6 +15,7 @@
 - [Recursive range](#recursive-range)
 - [Reverse](#reverse)
 - [Palindrome](#palindrome)
+- [First uppercase](#first-uppercase)
 - [Project structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Prerequisities](#prerequisities)
@@ -262,6 +263,29 @@ So, the formula for palindrome turns out to be, `f(str) = f();`.
 **Visual description**
 
 ![To be inserted](A link which is not working)
+
+## First uppercase
+
+We create a function for finding the _first uppercase instance_ of an alphabet in a given string using recursion. 
+
+A simple example of this method is as follows: 
+
+```text
+findUppercase('transL') 
+-->checkCharacterAt(0)
+-->if true
+---->return charAt(0)
+-->if false
+---->findUppercase(subString(1 till endOfinpuString)
+--> goto checkCharacterAt(0)
+```
+
+So, the formula for finding first uppercase alphabet in a string turns out to be, `f(str) = f();`.
+
+**Visual description**
+
+![To be inserted](A link which is not working)
+
 
 
 ## Project structure
