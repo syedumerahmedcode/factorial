@@ -93,6 +93,12 @@ public class Execute {
 		System.out.println(findUppercaseService.findFirstUppercaseLetter(inputForCheckingUppercaseLetter));
 		System.out.println();
 
+		inputForCheckingUppercaseLetter = "foobar";
+		System.out.println(
+				"Finding the first uppercase letter in the given input string: " + inputForCheckingUppercaseLetter);
+		System.out.println(findUppercaseService.findFirstUppercaseLetter(inputForCheckingUppercaseLetter));
+		System.out.println();
+
 	}
 
 }
