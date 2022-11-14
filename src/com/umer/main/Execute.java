@@ -2,6 +2,7 @@ package com.umer.main;
 
 import java.util.Arrays;
 
+import com.umer.capitalizeword.CapitalizwWordService;
 import com.umer.decimaltobinary.DecimnalToBinaryConverterService;
 import com.umer.fabonacci.FabonacciService;
 import com.umer.factorial.FactorialService;
@@ -97,6 +98,12 @@ public class Execute {
 		System.out.println(
 				"Finding the first uppercase letter in the given input string: " + inputForCheckingUppercaseLetter);
 		System.out.println(findUppercaseService.findFirstUppercaseLetter(inputForCheckingUppercaseLetter));
+		System.out.println();
+
+		CapitalizwWordService capitalizwWordService = new CapitalizwWordService();
+		final String inputToCapitalize = "i like programming in java";
+		System.out.println("Calculating capitalized word for the given input" + inputToCapitalize);
+		System.out.println(capitalizwWordService.capitalizeWord(inputToCapitalize));
 		System.out.println();
 
 	}
