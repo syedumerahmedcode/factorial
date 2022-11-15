@@ -13,7 +13,7 @@ public class CapitalizeWordService {
 		if (input.length() == 1) {
 			return Character.toString(Character.toUpperCase(character));
 		}
-		// Look back in the input from the end to check if it contains a [SPACE] 
+		// Look back in the input from the end to check if it contains a [SPACE]
 		if ((input.substring(input.length() - 2, input.length() - 1).equals(" "))) {
 			// The alphabet before the [SPACE] should be capitalized
 			character = Character.toUpperCase(character);
