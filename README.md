@@ -16,6 +16,7 @@
 - [Reverse](#reverse)
 - [Palindrome](#palindrome)
 - [First uppercase](#first-uppercase)
+- [Capitalize Word](#capitalize-word)
 - [Project structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Prerequisities](#prerequisities)
@@ -281,6 +282,23 @@ findUppercase('transL')
 ```
 
 So, the formula for finding first uppercase alphabet in a string turns out to be, `f(str) = f();`.
+
+**Visual description**
+
+![To be inserted](A link which is not working)
+
+## Capitalize Word
+
+We create a function which _capitalizes first instance_ of every word in a given sentence using recursion. 
+
+A simple example of this method is as follows: 
+
+```text
+capitalizeWord('i like java programming') 
+-->I like Java Programming
+```
+
+So, the formula for capitalizing first alphabet of each word in a string turns out to be, `f(str) = f();`.
 
 **Visual description**
 

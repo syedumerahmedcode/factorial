@@ -18,7 +18,7 @@ public class CapitalizeWordService {
 			// The alphabet before the [SPACE] should be capitalized
 			character = Character.toUpperCase(character);
 		}
-		// input string progressively gets smaller with every recursion call
+		// input string progressively gets smaller with every recursion call plus the last character
 		return capitalizeWord(input.substring(0, input.length() - 1)) + Character.toString(character);
 	}
 }
