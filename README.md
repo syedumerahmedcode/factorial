@@ -173,7 +173,7 @@ So, the formula for recursive function turns out to be, `gcd(a,0) = a` and `gcd(
 
 **Visual description**
 
-![To be inserted](A link which is not working)
+![GCD](https://github.com/syedumerahmedcode/recursion/blob/master/src/main/resources/GCDUsingRecursion.jpg)
 
 ## Product of an array
 
