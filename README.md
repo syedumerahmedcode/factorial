@@ -243,7 +243,7 @@ So, the formula for recursive function turns out to be, `f(str) = f(str.substrin
 
 **Visual description**
 
-![To be inserted](A link which is not working)
+![String reverse](https://github.com/syedumerahmedcode/recursion/blob/master/src/main/resources/StringReverseUsingRecursion.jpg)
 
 ## Palindrome
 
