@@ -204,7 +204,7 @@ So, the formula for recursive function turns out to be, `productofArray(int A[],
 
 **Visual description**
 
-![To be inserted](A link which is not working)
+![Prodcut of an array](https://github.com/syedumerahmedcode/recursion/blob/master/src/main/resources/ProductOfAnArrayUsingRecursion.jpg)
 
 
 ## Recursive range
