@@ -259,11 +259,11 @@ isPalindrome('tomamot') # true
 
 ```
 
-So, the formula for palindrome turns out to be, `f(str) = f();`.
+So, the formula for Palindrome turns out to be, `f(str) = f(str.substr[1,str.length-1]); when str.charAt(0)==str.charAt(str.length-1)`.
 
 **Visual description**
 
-![To be inserted](A link which is not working)
+![Palindrome](https://github.com/syedumerahmedcode/recursion/blob/master/src/main/resources/PalindromeUsingRecursion.jpg)
 
 ## First uppercase
 
