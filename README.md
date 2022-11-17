@@ -281,11 +281,12 @@ findUppercase('transL')
 --> goto checkCharacterAt(0)
 ```
 
-So, the formula for finding first uppercase alphabet in a string turns out to be, `f(str) = f();`.
+So, the formula for finding first uppercase alphabet in a string turns out to be, `f(str) = f(str.substr[1,str.length-1]);`.
 
 **Visual description**
 
-![To be inserted](A link which is not working)
+![First uppercase alphabet](https://github.com/syedumerahmedcode/recursion/blob/master/src/main/resources/FirstUppercaseAlphabetUsingRecursion.jpg)
+
 
 ## Capitalize Word
 
