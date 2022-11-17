@@ -226,7 +226,7 @@ So, the formula for recursive function turns out to be, `f(n) = n + f(n-1)`.
 
 **Visual description**
 
-![To be inserted](A link which is not working)
+![Recursive range](https://github.com/syedumerahmedcode/recursion/blob/master/src/main/resources/RecursiveRangeUsingRecursion.jpg)
 
 ## Reverse
 
