@@ -309,7 +309,7 @@ So, the formula for capitalizing first alphabet of each word in a string turns o
 
 ## Project structure
 
-- To be defined.
+There are several packages, one for each problem, which contain the solution inside a _Service_ class. These service classes are instantiated and called from _main()_ inside the _Execute_ class which can be found inside _com.umer.main_ package.
 
 ## Technologies Used
 
