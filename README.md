@@ -321,7 +321,9 @@ None
 
 ## Commands
 
-- To be defined.
+In order to run the program, one needs to open the project in a suitable IDE(such as Eclipse, STS, VSCode 0or IntelliJ), navigate to the _Execute_ class inside _com.umer.main_ package. Once there, right click---> Run As ---> Java Application.
+
+The program currently has hard-coded values and it does not take any input from the user. However, one can go inside the _main()_ inside _Excute_ class and change the input parameters as one sees fit. 
 
 ## Contribution
 
