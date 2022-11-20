@@ -299,7 +299,7 @@ capitalizeWord('i like java programming')
 -->I like Java Programming
 ```
 
-So, the formula for capitalizing first alphabet of each word in a string turns out to be, `f(str) = f(str.sub[0,str.len -1])+ char.toStr(ch) AND str.sun([str.len-2,str.len-1]==SPACE) then char.toUpperCase(ch);`.
+So, the formula for capitalizing first alphabet of each word in a string turns out to be, `f(str) = f(str.sub[0,str.len -1])+ char.toStr(ch) AND str.sub([str.len-2,str.len-1]==SPACE) then char.toUpperCase(ch);`.
 
 **Visual description**
 
