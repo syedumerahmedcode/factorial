@@ -303,7 +303,7 @@ So, the formula for capitalizing first alphabet of each word in a string turns o
 
 **Visual description**
 
-![To be inserted](A link which is not working)
+![Capitalize Word](https://github.com/syedumerahmedcode/recursion/blob/master/src/main/resources/CapitalizeWordUsingRecursion.jpg)
 
 
 
