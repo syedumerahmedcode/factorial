@@ -27,6 +27,8 @@
 
 ## Introduction
 
+The project uses recursion to find solution of interesting problems in which iterative approach is perhaps not the most optimal one and recursion can be used as an alternative approach.
+
 _Recursion_ is a way of solving problems by having a function calling itself or it solves a smaller subset of the problem. This goes on till an exit condition is reached.
 
 ## When to use Recursion
